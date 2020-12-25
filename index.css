@@ -1,0 +1,70 @@
+.row {
+    background-color: rgb(255, 255, 255);
+}
+
+.navigation__search__input {
+    width: 20rem;
+    padding: 1rem 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    outline: none;
+    border: 0.1rem solid #5555;
+    border-radius: 3rem;
+    transition: 0.3s;
+}
+
+.navigation__search__input :focus {
+    background-color: rgba(255, 255, 255, 0.945);
+}
+
+.navigation__search__btn {
+    border: none;
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0.3rem;
+    right: 2rem;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+}
+
+.navigation__search__btn > .fa {
+    background-color: transparent;
+}
+
+.image__div {
+  margin: 2rem;
+  margin-top: 0rem;
+  padding-bottom: 5rem;
+  background-image: url(students.jpeg);
+  background: linear-gradient(
+    top right,
+    rgba(212, 109, 11, 0.479),
+    rgba(212, 109, 11, 0.479)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.image__div > .mission {
+    border-radius: 50%;
+}
+
+.image__para {
+    margin-top: 150px;
+    margin-left: 0px;
+    font-size: 30px;
+    margin-right: 25px;
+}
+.nav__link {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.side__content {
+    display: block;
+}
