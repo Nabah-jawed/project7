@@ -68,3 +68,47 @@
 .side__content {
     display: block;
 }
+.box__1,
+.box__3 {
+  background-color: rgb(139, 139, 248);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.box__2,
+.box__4 {
+  background-color:white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.box__1 > .fa, .box__2 > .fa, .box__3 >.fa, .box__4 > .fa {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.box__1:hover {
+  box-shadow: 4rem 4rem 4rem #333;
+  transition: 0.5s;
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+.box__2:hover {
+  box-shadow: 4rem 4rem 4rem #333;
+  transition: 0.5s;
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+.box__3:hover {
+  box-shadow: 4rem 4rem 4rem #333;
+  transition: 0.5s;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+.box__4:hover {
+  box-shadow: 4rem 4rem 4rem #333;
+  transition: 0.5s;
+  transform: translateY(-4px);
+  cursor: pointer;
+}
